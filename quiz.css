@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-image: url("background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+img{
+    width: 5.5rem;
+    height: 5.2rem;
+    border-radius: 50%;
+}
+.img{
+    position: fixed;
+}
+#title{
+    text-align: center;
+    padding: 0.8rem 0;
+    font-size: 3rem;
+    color:black;
+    background: rgb(150,111,51);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.questions{
+    display:block;
+    margin: 3rem auto;
+    width: 90vw;
+    padding: 2rem;
+    background: rgb(0,255,221);
+    cursor: pointer;
+    border-radius: 1rem;
+}
+#question{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+.option{
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    border-bottom: solid 0.1rem blue;
+    width: 50rem;
+    height: 4rem;
+    background: lightblue;
+    border-radius: 1rem;
+}
+.option:hover{
+   cursor: pointer;
+   box-shadow: 0 0.4rem 1.4rem 0 rgba(6,103,247,0.5);
+   transform:scale(1.02);
+   transform:transform 100ms;
+}
+ol{
+    position: relative;
+    padding: 0 1.5rem;
+    color: rgb(8, 8, 8);
+}
+span{
+    display: flex;
+    padding: 0.1rem 0.7rem;
+    border-radius: 1rem;
+    font-size: 3rem;
+}
+#answer{
+    margin-top: 2.5rem;
+}
+#stat{
+    margin-top: 1.5rem;
+    color: rgb(6,17,168);
+}
+.buttons{
+    text-align: center;
+    height:3rem;
+    font-size: 3rem;
+}
+
+button{
+    padding: 0.2rem 1.5rem;
+    border:solid;
+    outline:none;
+    font-size: 3rem;
+    border-radius: 2rem;
+    color: rgba(93,53,156,0.98);
+    background: rgba(161,177,19,0.82);
+}
+button:active{
+    background: lavender;
+}
+#scoreboard,#answerBank{
+    width: 20rem;
+    background: rgba(93,53,156,0.89);
+    padding: 2rem;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 5rem;
+    display: none;
+}
+#score-title{
+    margin: 1rem 0;
+}
+.answer-list{
+    display:block;
+}
+#score-btn,#check-answer{
+    margin-top: 1rem;
+}
+#score{
+    font-size: 2.5rem;
+}
+#answerBank li{
+    text-align: left;
+    margin-bottom: 0.2rem;
+    font-size: 2rem;
+}
+#answers{
+    margin-top: 1rem;
+}
+.Fabio{
+    display:flex;
+}
